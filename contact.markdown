@@ -18,8 +18,8 @@ We'd love to hear from you. Whether you have a project in mind, need consultatio
     <p>We respond to all inquiries within one business day.</p>
   </div>
   <div class="contact-form">
-    <!-- Formspree: sign up at https://formspree.io, create a form, and replace YOUR_FORM_ID -->
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <!-- Formspree form: https://formspree.io/f/xnjodqqj -->
+    <form action="https://formspree.io/f/xnjodqqj" method="POST">
       <label for="name">Name</label>
       <input type="text" id="name" name="name" required placeholder="Your name" />
       <label for="email">Email</label>

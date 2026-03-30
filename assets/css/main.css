@@ -96,14 +96,17 @@ a:hover { text-decoration: underline; }
   gap: 1.5rem;
 }
 .site-logo {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--primary);
-  letter-spacing: -.03em;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   flex-shrink: 0;
 }
-.site-logo:hover { text-decoration: none; color: var(--primary); }
+.site-logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.site-logo:hover { text-decoration: none; }
 .logo-it { color: var(--accent); }
 .logo-gs { color: var(--muted); font-weight: 500; }
 

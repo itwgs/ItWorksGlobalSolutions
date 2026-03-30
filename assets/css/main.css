@@ -105,10 +105,10 @@ a:hover { text-decoration: underline; }
   height: 40px;
   width: auto;
   display: block;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .site-logo:hover { text-decoration: none; }
-.logo-it { color: var(--accent); }
-.logo-gs { color: var(--muted); font-weight: 500; }
 
 .nav-links {
   display: flex;
@@ -143,6 +143,14 @@ a:hover { text-decoration: underline; }
 .hero-inner {
   max-width: 720px;
   margin: 0 auto;
+}
+.hero-logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.75rem;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
 }
 .hero-badge {
   display: inline-block;

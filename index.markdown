@@ -5,6 +5,7 @@ title: Home
 
 <section class="hero">
   <div class="hero-inner">
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="ItWorksGlobalSolutions Logo" class="hero-logo">
     <div class="hero-badge">Global Software Solutions</div>
     <h1>Technology That <span class="text-accent">Works</span><br>for Your Business</h1>
     <p>We design, build, and deploy robust software solutions — from web applications to cloud infrastructure — that drive real business results.</p>

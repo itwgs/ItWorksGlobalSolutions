@@ -16,14 +16,19 @@ We'd love to hear from you! Whether you have a project in mind, need consultatio
 
 ## Send us a Message
 
-<form action="mailto:contact@itwgs.com" method="post" enctype="text/plain">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"><br>
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message"></textarea><br>
-  <input type="submit" value="Send">
+<!-- Formspree: sign up at https://formspree.io, create a form, and replace YOUR_FORM_ID below -->
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width:500px;">
+  <div style="margin-bottom:1em;">
+    <label for="name"><strong>Name</strong></label><br>
+    <input type="text" id="name" name="name" required style="width:100%;padding:0.4em;">
+  </div>
+  <div style="margin-bottom:1em;">
+    <label for="email"><strong>Email</strong></label><br>
+    <input type="email" id="email" name="email" required style="width:100%;padding:0.4em;">
+  </div>
+  <div style="margin-bottom:1em;">
+    <label for="message"><strong>Message</strong></label><br>
+    <textarea id="message" name="message" rows="5" required style="width:100%;padding:0.4em;"></textarea>
+  </div>
+  <button type="submit" style="padding:0.5em 1.5em;">Send Message</button>
 </form>
-
-*Note: This is a simple mailto form. For production sites, consider using a proper contact form service.*

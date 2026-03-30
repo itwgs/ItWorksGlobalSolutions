@@ -1,29 +1,38 @@
 ---
 layout: page
-title: About
+title: About Us
 permalink: /about/
 ---
 
 # About ItWorksGlobalSolutions
 
-ItWorksGlobalSolutions is a premier software development company specializing in creating cutting-edge digital solutions for businesses of all sizes. Founded with a passion for technology and innovation, we have been helping companies transform their operations through custom software development.
+ItWorksGlobalSolutions is a premier software development company specializing in creating cutting-edge digital solutions for businesses of all sizes. Founded with a passion for technology and innovation, we help organizations transform their operations through custom software — from early-stage startups to established enterprises.
 
 ## Our Mission
 
-To empower businesses with technology that drives growth, efficiency, and competitive advantage.
+To empower businesses with technology that drives real growth, operational efficiency, and lasting competitive advantage.
 
-## Our Team
+## Our Approach
 
-Our team consists of experienced developers, designers, and consultants who are experts in the latest technologies and methodologies. We pride ourselves on delivering projects on time and exceeding client expectations.
+We believe the best software comes from deep collaboration. Every engagement starts with understanding your business — not just the technical requirements. From there, our team brings together engineering rigour, design thinking, and a relentless focus on delivery to build solutions that genuinely work.
+
+## Our Values
+
+- **Quality** — Clean, tested, maintainable code that stands the test of time.
+- **Transparency** — Regular updates, honest timelines, and clear communication throughout every engagement.
+- **Security** — Security is not an afterthought. Industry best practices from the first commit.
+- **Partnership** — We treat your goals as our own. Your success is our success.
 
 ## Technologies We Work With
 
-- Programming Languages: Python, JavaScript, Java, C#, Go
-- Frameworks: React, Angular, Django, Flask, Spring
-- Cloud Platforms: AWS, Azure, Google Cloud
-- Databases: PostgreSQL, MongoDB, MySQL
-- DevOps: Docker, Kubernetes, CI/CD pipelines
+- **Languages:** Python, JavaScript / TypeScript, Java, C#, Go
+- **Frontend:** React, Next.js, Angular, Vue.js
+- **Backend:** Django, FastAPI, Node.js, Spring Boot, .NET
+- **Mobile:** React Native, Flutter, Swift, Kotlin
+- **Cloud:** AWS, Microsoft Azure, Google Cloud Platform
+- **Databases:** PostgreSQL, MongoDB, MySQL, Redis
+- **DevOps:** Docker, Kubernetes, GitHub Actions, CI/CD pipelines
 
 ## Get In Touch
 
-Ready to start your next project? [Contact us](mailto:contact@itwgs.com) to discuss how we can help bring your ideas to life.
+Ready to start your next project? [Contact us]({{ '/contact/' | relative_url }}) to discuss how we can help bring your ideas to life.

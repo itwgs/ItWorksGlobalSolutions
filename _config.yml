@@ -29,7 +29,7 @@ twitter_username:
 github_username: itwgs
 
 # Build settings
-theme: minima
+# theme: minima  (using custom layouts — see _layouts/)
 plugins:
   - jekyll-feed
 

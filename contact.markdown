@@ -1,34 +1,34 @@
 ---
 layout: page
-title: Contact
+title: Contact Us
 permalink: /contact/
 ---
 
 # Contact Us
 
-We'd love to hear from you! Whether you have a project in mind, need consultation, or just want to say hello, feel free to reach out.
+We'd love to hear from you. Whether you have a project in mind, need consultation, or just want to say hello — reach out and we'll get back to you within one business day.
 
-## Get In Touch
-
-- **Email**: contact@itwgs.com
-- **Phone**: +1 (555) 123-4567
-- **Address**: 123 Tech Street, Innovation City, IC 12345
-
-## Send us a Message
-
-<!-- Formspree: sign up at https://formspree.io, create a form, and replace YOUR_FORM_ID below -->
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width:500px;">
-  <div style="margin-bottom:1em;">
-    <label for="name"><strong>Name</strong></label><br>
-    <input type="text" id="name" name="name" required style="width:100%;padding:0.4em;">
+<div class="contact-grid">
+  <div class="contact-info">
+    <h3>Email</h3>
+    <p><a href="mailto:contact@itwgs.com">contact@itwgs.com</a></p>
+    <h3>Website</h3>
+    <p><a href="https://www.itwgs.com">www.itwgs.com</a></p>
+    <h3>Response Time</h3>
+    <p>We respond to all inquiries within one business day.</p>
   </div>
-  <div style="margin-bottom:1em;">
-    <label for="email"><strong>Email</strong></label><br>
-    <input type="email" id="email" name="email" required style="width:100%;padding:0.4em;">
+  <div class="contact-form">
+    <!-- Formspree: sign up at https://formspree.io, create a form, and replace YOUR_FORM_ID -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your name" />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="you@company.com" />
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Project inquiry, consulting, etc." />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
+      <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+    </form>
   </div>
-  <div style="margin-bottom:1em;">
-    <label for="message"><strong>Message</strong></label><br>
-    <textarea id="message" name="message" rows="5" required style="width:100%;padding:0.4em;"></textarea>
-  </div>
-  <button type="submit" style="padding:0.5em 1.5em;">Send Message</button>
-</form>
+</div>

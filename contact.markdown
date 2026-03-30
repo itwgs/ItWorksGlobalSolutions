@@ -11,7 +11,7 @@ We'd love to hear from you. Whether you have a project in mind, need consultatio
 <div class="contact-grid">
   <div class="contact-info">
     <h3>Email</h3>
-    <p><a href="mailto:contact@itwgs.com">contact@itwgs.com</a></p>
+    <p><a href="mailto:contact@itwgs.net">contact@itwgs.net</a></p>
     <h3>Website</h3>
     <p><a href="https://www.itwgs.com">www.itwgs.com</a></p>
     <h3>Response Time</h3>
